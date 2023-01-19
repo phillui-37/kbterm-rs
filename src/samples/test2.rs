@@ -2,7 +2,7 @@ use cursive::{views::Dialog, Cursive};
 
 use crate::traits::Sample;
 
-pub struct Test2();
+pub struct Test2;
 
 impl Sample for Test2 {
     fn run(&self, siv: &mut cursive::Cursive) {

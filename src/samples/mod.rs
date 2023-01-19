@@ -1,7 +1,25 @@
 pub mod test1;
 pub mod test2;
 pub mod test3;
+pub mod lorem;
+pub mod window_title;
+pub mod advanced_user_data;
+pub mod ansi;
+pub mod autocomplete;
+pub mod builder;
+pub mod colors;
+pub mod ctrl_c;
+pub mod debug_console;
 
 pub use test1::Test1;
 pub use test2::Test2;
 pub use test3::Test3;
+pub use lorem::Lorem;
+pub use window_title::WindowTitle;
+pub use advanced_user_data::AdvancedUserData;
+pub use ansi::Ansi;
+pub use autocomplete::AutoComplete;
+pub use builder::Builder;
+pub use colors::Colors;
+pub use ctrl_c::CtrlC;
+pub use debug_console::DebugConsole;

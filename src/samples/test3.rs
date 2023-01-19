@@ -4,7 +4,7 @@ use cursive::{traits::*, Cursive};
 
 use crate::traits::Sample;
 
-pub struct Test3();
+pub struct Test3;
 
 impl Sample for Test3 {
     fn run(&self, siv: &mut cursive::Cursive) {
