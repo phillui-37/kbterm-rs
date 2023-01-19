@@ -1,0 +1,22 @@
+[package]
+name = "kbterm-rs"
+author = ["Phli Lui <phillui37@gmail.com>"]
+description = "K8s manager with tui"
+homepage = "https://github.com/phillui-37/kbterm-rs"
+repository = "https://github.com/phillui-37/kbterm-rs"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+license-file = "LICENSE"
+keywords = ["kubernetes", "k8s", "tui", "ncurses"]
+categories = ["command-line-utilities", "visualization"]
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[dependencies.cursive]
+version = "0.20"
+default-features = false
+features = ['pancurses-backend']
